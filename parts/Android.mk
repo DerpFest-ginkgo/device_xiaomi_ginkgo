@@ -22,6 +22,10 @@ LOCAL_USE_AAPT2 := true
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     SettingsLib
 
+LOCAL_OPTIONAL_USES_LIBRARIES := \
+androidx.window.extensions \
+androidx.window.sidecar
+
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
     $(TOP)/packages/resources/devicesettings/res
